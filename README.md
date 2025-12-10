@@ -110,22 +110,26 @@ MiniProjet-Netflix/
 ##  Installation locale pour tester 
 
 ### 1. Cloner le dépôt
-
 ```bash
 git clone https://github.com/Mdaffe17/MiniProjet-Netflix
 cd miniprojet-netflix
+```
+---
 
 ### 2. Installer les dépendances
 
 ```bash
 pip install -r requirements.txt
+```
+---
+
 
 ### 3. Lancer Streamlit
 
 ```bash
 cd streamlit
 streamlit run app.py
-
+```
 ---
 
 ###  4. Conclusion
