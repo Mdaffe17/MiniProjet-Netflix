@@ -4,7 +4,7 @@ import plotly.express as px
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/netflix_titles.csv")
+    df = pd.read_csv("/data/netflix_titles.csv")
 
     # Nettoyage de la date_added (corrige l'erreur !)
     df["date_added"] = (
