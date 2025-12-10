@@ -61,32 +61,6 @@ Différents graphiques (Matplotlib, Seaborn, Plotly) :
 - Répartition des ratings  
 - Distribution temporelle des ajouts Netflix  
 
-###  4. Conclusion
-# Conclusion
-
-Dans ce mini-projet, nous avons réalisé une analyse exploratoire du catalogue Netflix à partir d'un jeu de données public Kaggle.  
-Les principaux résultats sont :
-
-- Netflix propose **plus de films que de séries**, mais le nombre de séries a fortement augmenté après 2015.
-- La majorité des contenus sont **récents**, avec une forte concentration à partir des années 2000.
-- Les **États-Unis** dominent le catalogue en nombre de titres, mais de nombreux autres pays sont représentés, ce qui montre une certaine diversité géographique.
-- Les genres les plus fréquents incluent notamment *International Movies*, *Dramas*, *Comedies*, etc.
-- Les ratings les plus courants sont **TV-MA**, **TV-14** et **TV-PG**, suggérant une offre large pour un public adolescent / adulte.
-- Les films ont une durée typique comprise entre **80 et 120 minutes**, tandis que la majorité des séries comptent peu de saisons (1 à 3).
-
-Nous avons également mis en évidence certaines **limites** :
-- Le dataset ne contient pas d'information sur la popularité réelle (nombre de vues, notes des utilisateurs, etc.).
-- Les dates d'ajout sont parfois manquantes ou partielles.
-- Certaines colonnes textuelles (cast, listed_in, country) sont difficiles à exploiter pleinement sans un prétraitement plus avancé (NLP, regroupement de catégories, etc.).
-
-Ces analyses constituent une bonne base pour de futurs travaux, par exemple :
-- la recommandation de contenus,
-- la prédiction de succès d'un titre,
-- ou l'étude plus fine des préférences par pays.
-
-
----
-
 ##  Application Streamlit
 
 L’application web interactive permet :
@@ -136,16 +110,49 @@ MiniProjet-Netflix/
 ##  Installation locale pour tester 
 
 ### 1. Cloner le dépôt
+
 ```bash
 git clone https://github.com/Mdaffe17/MiniProjet-Netflix
 cd miniprojet-netflix
+
 ### 2. Installer les dépendances
+
 ```bash
 pip install -r requirements.txt
+
 ### 3. Lancer Streamlit
+
 ```bash
 cd streamlit
 streamlit run app.py
+
+---
+
+###  4. Conclusion
+# Conclusion
+
+Dans ce mini-projet, nous avons réalisé une analyse exploratoire du catalogue Netflix à partir d'un jeu de données public Kaggle.  
+Les principaux résultats sont :
+
+- Netflix propose **plus de films que de séries**, mais le nombre de séries a fortement augmenté après 2015.
+- La majorité des contenus sont **récents**, avec une forte concentration à partir des années 2000.
+- Les **États-Unis** dominent le catalogue en nombre de titres, mais de nombreux autres pays sont représentés, ce qui montre une certaine diversité géographique.
+- Les genres les plus fréquents incluent notamment *International Movies*, *Dramas*, *Comedies*, etc.
+- Les ratings les plus courants sont **TV-MA**, **TV-14** et **TV-PG**, suggérant une offre large pour un public adolescent / adulte.
+- Les films ont une durée typique comprise entre **80 et 120 minutes**, tandis que la majorité des séries comptent peu de saisons (1 à 3).
+
+Nous avons également mis en évidence certaines **limites** :
+- Le dataset ne contient pas d'information sur la popularité réelle (nombre de vues, notes des utilisateurs, etc.).
+- Les dates d'ajout sont parfois manquantes ou partielles.
+- Certaines colonnes textuelles (cast, listed_in, country) sont difficiles à exploiter pleinement sans un prétraitement plus avancé (NLP, regroupement de catégories, etc.).
+
+Ces analyses constituent une bonne base pour de futurs travaux, par exemple :
+- la recommandation de contenus,
+- la prédiction de succès d'un titre,
+- ou l'étude plus fine des préférences par pays.
+
+
+---
 
 ## Auteur
 Projet réalisé par Mouctar Daffe dans le cadre du module d’analyse de données.
