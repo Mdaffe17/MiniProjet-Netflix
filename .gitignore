@@ -1,0 +1,14 @@
+# Fichiers macOS
+.DS_Store
+
+# Checkpoints Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Streamlit cache
+.streamlit/
+
