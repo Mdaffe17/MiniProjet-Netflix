@@ -78,19 +78,6 @@ L’app est accessible directement en ligne (voir lien plus haut).
 
 ---
 
-## Structure du projet
-MiniProjet-Netflix/
- data/
-   netflix_titles.csv
- notebook/
-   netflix_eda.ipynb
- streamlit/
-   app.py
- report/
-     RapportMiniProjet 
-requirements.txt
-README.md
-
 ## Technologies utilisées
 
 - **Python 3**
